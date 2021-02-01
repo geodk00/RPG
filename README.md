@@ -28,4 +28,4 @@ They also both use enums to define the different kinds of items (material for ar
 ## NOTE
 I have kept comments to a minimum since everything should be self-explanatory 
 
-Some of my stats are slightly different, since I calculate them as base + (level - 1 * per_level) instead of base + (level * pr_level), since I think this way fits the description of "base" and "per level" better.
+Some of my stats are slightly different, since I calculate them as base + ((level - 1) * per_level) instead of base + (level * pr_level), since I think this way fits the description of "base" and "per level" better.
