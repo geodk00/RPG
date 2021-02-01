@@ -25,7 +25,7 @@ Both armor and weapons use the Strategy Pattern. The implementations of the inte
 
 They also both use enums to define the different kinds of items (material for armor and weapon type for weapons) as well as static factory methods to create instances of them.
 
-##NOTE
+## NOTE
 I have kept comments to a minimum since everything should be self-explanatory 
 
 Some of my stats are slightly different, since I calculate them as base + (level - 1 * per_level) instead of base + (level * pr_level), since I think this way fits the description of "base" and "per level" better.
